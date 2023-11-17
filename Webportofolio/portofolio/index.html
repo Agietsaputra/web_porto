@@ -1,0 +1,91 @@
+<!---Log-in-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/web.css">
+    <title>Portfolio</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <!-- <div class="logo">
+            <a href="#">Logo.</a>
+        </div> -->
+        <input type="checkbox" id="click">
+        <label for="click" class="mainicon">
+            <div class="menu">
+                <i class="bi bi-list"></i>
+            </div>
+        </label>
+        <nav>
+            <!-- <a href="#" class="active">Home</a> -->
+            <a href="#About">About</a>
+            <a href="#Skill">Skills</a>
+            <!-- <a href="#">Portfolio</a> -->
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="detail">
+            <div class="text-content">
+                <h1><span>Hi, It's Me</span> <br> I'm <span style="color:#244D61;">Agiet Saputra</span></h1>
+                <p> Saya adalah Mahasiswa semester 3 dari Prodi Teknik Informatika<br> Menguasai Tentang Web Devolopment</p>
+            </div>
+            <div class="images">
+                <img class="profile-image" src="./WhatsApp Image 2023-11-17 at 15.12.20.jpeg" alt="">
+            </div>
+            <div class="social">
+                <a href="https://github.com/Agietsaputra?tab=repositories"><i class="bi bi-github"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/pucelllllya?mibextid=9R9pXO"><i class="bi bi-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <section class="about" id="About">
+        <div class="about-me">
+            <ul>
+                <li>Tentang Saya</li>
+                <p> Nama saya adalah Agiet Saputra 
+                    Saya dari Berebe, Jawa Tengah
+                    Menguasai Tentang item-item di Mobile Legend.</p>
+            </ul>
+        </div>
+    </section>
+
+    <section class ="skill" id="Skill">
+        <div class ="my-skill">
+            <ul>
+                <li>Skill Saya</li>
+                <p>Menguasai tentang UI/UX <br>
+                    Mengasai tentang Front and
+                </p>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Hubungi Saya</h2>
+            <form>
+                <label for="name">Nama</label>
+                <input type="text" id="name ">
+                <label for="email">Email</label>
+                <input type="email" id="email ">
+                <label for="pesan">Pesan</label>
+                <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+                <button id="btn-contact"  type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
